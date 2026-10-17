@@ -1,0 +1,2519 @@
+{
+  "categories": {
+    "electronics-small-appliance": {
+      "name": "Small Electronics & Appliances",
+      "matchedKeywords": [
+        "lamp",
+        "desk lamp",
+        "light",
+        "headphones",
+        "headphone",
+        "toaster",
+        "kettle",
+        "radio",
+        "speaker",
+        "blender",
+        "fan",
+        "charger",
+        "clock",
+        "hairdryer",
+        "drill",
+        "vacuum"
+      ],
+      "safetyFlag": true,
+      "safetyNotice": {
+        "title": "Safety Precaution",
+        "description": "Electrical items can be risky. If you're unsure, ask a professional before opening components."
+      },
+      "commonProblems": [
+        "Doesn't turn on",
+        "Flickers",
+        "Cracked casing",
+        "Wobbly parts",
+        "Cord or plug damaged",
+        "Something else"
+      ],
+      "baseScores": {
+        "repair": 78,
+        "reuse": 42,
+        "repurpose": 48,
+        "replace": 52,
+        "recycle": 56,
+        "discard": 18
+      },
+      "templates": {
+        "repair": {
+          "title": "Repair",
+          "subtitle": "Inspect bulb, toggle switch, or cord contact",
+          "tagNote": "Highest impact saved",
+          "defaultReason": "Usually a bulb, plug or switch: low cost to check.",
+          "reasons": [
+            "Low-cost diagnostic: In India, 80% of small appliance issues are a loose wire, blown fuse, or faulty switch (₹50–₹250 fix by a local electrician or DIY).",
+            "Zero waste footprint: keeps the entire fixture and cord out of the municipal landfill.",
+            "DIY beginner friendly: requires only a screwdriver and 15 minutes of calm focus."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low",
+              "value": "₹0 – ₹300",
+              "note": "Testing with spare bulb is free; replacement switch, plug, or wire is ₹30–₹150.",
+              "barPercent": 15
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Beginner",
+              "note": "No delicate soldering or specialized workshop needed.",
+              "barPercent": 25
+            },
+            "time": {
+              "level": "Quick",
+              "value": "15 – 30 mins",
+              "note": "Diagnostic takes 5 minutes; part tightening under 15 minutes.",
+              "barPercent": 30
+            },
+            "safety": {
+              "level": "Moderate",
+              "value": "Disconnect power first",
+              "note": "Always unplug cord completely before inspecting contacts.",
+              "barPercent": 50
+            },
+            "impact": {
+              "level": "Maximum",
+              "value": "100% item saved",
+              "note": "Prevents manufacturing burden and keeps heavy materials in use.",
+              "barPercent": 95
+            }
+          },
+          "optimalCriteria": "The bulb or switch is the root issue and body structure is intact. Wire casing shows no scorching.",
+          "toolsNeeded": [
+            "Small Phillips head (#1 or #2) screwdriver",
+            "Working replacement E26/E12 bulb or spare fuse",
+            "Flashlight or mobile phone torch"
+          ],
+          "communityTip": "In older desk lamps, the socket contact brass tab flattens over time. With the lamp unplugged, gently lifting it 2mm with a clean pen often fixes it instantly!",
+          "checklists": [
+            {
+              "id": "rep-1",
+              "text": "1. Unplug the item first",
+              "detail": "Never inspect, touch electrical pins, or open base covers with the power cord plugged in.",
+              "isMandatorySafety": true
+            },
+            {
+              "id": "rep-2",
+              "text": "2. Swap in a known-good bulb or cable",
+              "detail": "Test with a component known to work to rule out internal filament or driver burnout."
+            },
+            {
+              "id": "rep-3",
+              "text": "3. Check the plug and cord for visible damage",
+              "detail": "Inspect closely for crimped insulation, pet bites, or loose prongs near the outlet joint."
+            },
+            {
+              "id": "rep-4",
+              "text": "4. Try a different wall socket",
+              "detail": "Ensure the wall receptacle isn't connected to a tripped circuit breaker or wall switch."
+            }
+          ],
+          "subsequentAction": "recycle",
+          "subsequentLabel": "Still not working? Try Recycle next",
+          "householdFix": {
+            "title": "Household Contact & Switch Fix (Desi Jugaad)",
+            "bestInexpensiveWay": "Lift flattened brass socket contacts & clean oxidation using a pencil eraser or vinegar swab.",
+            "cost": "₹0 – Free (Household supplies)",
+            "materialsNeeded": [
+              "Pencil with rubber eraser or dry cotton earbud",
+              "Small drop of white vinegar or lemon juice (for oxidized prongs)",
+              "Screwdriver or dry butter knife tip",
+              "Spare bulb from another room to test"
+            ],
+            "steps": [
+              "Safety first: Unplug the appliance power cord completely from the wall socket before touching contacts.",
+              "Fix flattened contact tab: Over years of screwing bulbs or plugs in, the central brass contact tab flattens down. With the unit unplugged, gently lever the brass tab up by 2mm using a screwdriver or pen tip so it makes firm contact with the bulb base.",
+              "Clean oxidized terminals: 80% of intermittent failure is surface oxidation. Rub a clean pencil eraser over the metal prongs and internal contact points until the metal shines.",
+              "Check for loose cord screws: Open the 3-pin plug top and tighten the terminal screws holding the live, neutral, and earth wires firmly."
+            ],
+            "safetyNotice": "Always completely unplug the power cord from the wall socket before inspecting or touching electrical contacts."
+          }
+        },
+        "recycle": {
+          "title": "Recycle",
+          "subtitle": "Certified Municipal E-waste dropoff",
+          "tagNote": "Drop-off required",
+          "defaultReason": "Lamps and appliances are e-waste; use a proper drop-off.",
+          "reasons": [
+            "Reclaims high-value metals like copper, brass, and aluminum rather than burying them.",
+            "Certified recyclers separate toxic solder traces away from soil and drinking water.",
+            "Zero cost at local council or household hazardous waste drop-off days."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Municipal e-waste dropoff centers are free for residents.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Transport",
+              "note": "Requires batching with your next weekend recycling trip.",
+              "barPercent": 35
+            },
+            "time": {
+              "level": "Quick",
+              "value": "~20 – 30 mins",
+              "note": "Transit and drop-off window at nearby depot.",
+              "barPercent": 35
+            },
+            "safety": {
+              "level": "High",
+              "value": "Safe handling",
+              "note": "Keep glass shades intact when transporting.",
+              "barPercent": 15
+            },
+            "impact": {
+              "level": "High",
+              "value": "Resource recovery",
+              "note": "Metals and polymers are shredded and returned to manufacturing.",
+              "barPercent": 75
+            }
+          },
+          "optimalCriteria": "The internal transformer or unibody casing is burnt, broken beyond simple part swap, or unsafe.",
+          "toolsNeeded": [
+            "Cardboard box or bag for safe transit"
+          ],
+          "communityTip": "Most hardware stores and municipal depots host free e-waste collection bins near the entrance.",
+          "checklists": [
+            {
+              "id": "rec-1",
+              "text": "1. Remove detachable bulbs or batteries",
+              "detail": "Separate mercury fluorescent bulbs or lithium batteries for dedicated sorting bins.",
+              "isMandatorySafety": true
+            },
+            {
+              "id": "rec-2",
+              "text": "2. Wind and secure the electrical cord",
+              "detail": "Wrap the cord loosely around the base so it doesn't tangle in transport."
+            },
+            {
+              "id": "rec-3",
+              "text": "3. Locate your nearest e-waste drop-off bin",
+              "detail": "Search your local city recycling directory or electronics retailer collection point."
+            }
+          ]
+        },
+        "repurpose": {
+          "title": "Repurpose",
+          "subtitle": "Convert shade or weighted base creatively",
+          "tagNote": "Creative project",
+          "defaultReason": "Base or shade can become a planter or desk organizer.",
+          "reasons": [
+            "Gives charming industrial or retro aesthetic to a desk, shelf, or patio.",
+            "Zero new purchases required; uses simple household tools you already own.",
+            "Extends the lifespan of sturdy metal, ceramic, or wooden components."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low",
+              "value": "₹0 – ₹150",
+              "note": "Uses scrap materials, empty jars, or pots you already have at home.",
+              "barPercent": 10
+            },
+            "effort": {
+              "level": "Medium",
+              "value": "Creative craft",
+              "note": "Requires disassembly and light cleaning.",
+              "barPercent": 45
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "30 – 60 mins",
+              "note": "Fun afternoon DIY craft project.",
+              "barPercent": 50
+            },
+            "safety": {
+              "level": "Moderate",
+              "value": "Smooth rough edges",
+              "note": "Sand metal edges or cover holes safely.",
+              "barPercent": 35
+            },
+            "impact": {
+              "level": "High",
+              "value": "Upcycled life",
+              "note": "Diverts 80%+ of material volume directly at home.",
+              "barPercent": 70
+            }
+          },
+          "optimalCriteria": "The structural housing looks great, but electrical internals are no longer safe or practical to fix.",
+          "toolsNeeded": [
+            "Screwdriver",
+            "Pliers or wire snips",
+            "Cloth for cleaning"
+          ],
+          "communityTip": "A lamp shade turned upside down with a saucer beneath makes an eye-catching succulent planter.",
+          "checklists": [
+            {
+              "id": "rep-p-1",
+              "text": "1. Disconnect and strip non-working wiring safely",
+              "detail": "Snip electrical cords flush only after ensuring the plug was discarded.",
+              "isMandatorySafety": true
+            },
+            {
+              "id": "rep-p-2",
+              "text": "2. Clean surfaces with mild soap and warm water",
+              "detail": "Remove grease and dust from brass, steel, or ceramic housing."
+            },
+            {
+              "id": "rep-p-3",
+              "text": "3. Assign a new function",
+              "detail": "Try using the base as a headphone stand, pen caddy, or plant holder."
+            }
+          ]
+        },
+        "replace": {
+          "title": "Replace",
+          "subtitle": "Practical option when repair exceeds value",
+          "tagNote": "Practical backup",
+          "defaultReason": "Only if repair costs more than a new lamp.",
+          "reasons": [
+            "Valid and sensible when parts are proprietary, unobtainable, or repair costs exceed replacement.",
+            "Modern LED units can use up to 80% less energy if the old unit ran hot halogen or incandescent bulbs.",
+            "Allows choosing a modular, easily repairable model with standard sockets for the future."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low-to-Medium",
+              "value": "₹450 – ₹1,500",
+              "note": "Standard LED study lamp (₹450–₹800) or flexible desk light (₹900–₹1,500).",
+              "barPercent": 35
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Retail purchase",
+              "note": "Simple store or online selection.",
+              "barPercent": 20
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 – 2 days",
+              "note": "Time to pick up or receive delivery.",
+              "barPercent": 40
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Certified new",
+              "note": "Meets modern regulatory safety certifications.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "Low",
+              "value": "New footprint",
+              "note": "Creates manufacturing demand; offset by choosing high-efficiency LED.",
+              "barPercent": 25
+            }
+          },
+          "optimalCriteria": "Repair cost estimate exceeds 60% of replacement cost, or safety hazards cannot be verified.",
+          "toolsNeeded": [
+            "Measuring tape for desk space"
+          ],
+          "communityTip": "Look for fixtures with standard screw-in bulb sockets (E26 or E14) rather than integrated non-replaceable LEDs.",
+          "checklists": [
+            {
+              "id": "repl-1",
+              "text": "1. Verify repair feasibility first",
+              "detail": "Double check that a simple ₹50–₹120 bulb or plug switch swap doesn't resolve the issue."
+            },
+            {
+              "id": "repl-2",
+              "text": "2. Choose a repair-friendly replacement",
+              "detail": "Pick designs with replaceable bulbs and accessible screw fastenings."
+            },
+            {
+              "id": "repl-3",
+              "text": "3. Plan disposal of old item",
+              "detail": "Take the old unit to an e-waste depot when picking up the new one."
+            }
+          ]
+        },
+        "reuse": {
+          "title": "Reuse",
+          "subtitle": "Give away, donate, or pass along",
+          "tagNote": "Non-functional",
+          "defaultReason": "Not while it's broken.",
+          "reasons": [
+            "Charity shops and donation centers legally cannot accept faulty electrical items without testing tags.",
+            "Can still be gifted to a local tinkerer or maker space for parts if described accurately."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "No cost to offer locally.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Medium",
+              "value": "Listing",
+              "note": "Posting on Buy Nothing or Freecycle.",
+              "barPercent": 40
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "1 – 3 days",
+              "note": "Waiting for someone to collect.",
+              "barPercent": 50
+            },
+            "safety": {
+              "level": "Moderate",
+              "value": "Declare fault",
+              "note": "Clearly label that it is broken and needs repair.",
+              "barPercent": 40
+            },
+            "impact": {
+              "level": "Medium",
+              "value": "Community use",
+              "note": "Puts spare parts in the hands of a local maker.",
+              "barPercent": 60
+            }
+          },
+          "optimalCriteria": "Item is intact or working, or a hobbyist explicitly wants it for spare parts.",
+          "toolsNeeded": [
+            "Marker to label 'Broken for parts'"
+          ],
+          "checklists": [
+            {
+              "id": "reu-1",
+              "text": "1. Clearly label condition as non-working",
+              "detail": "Write 'Needs rewiring / For parts' to keep community members safe.",
+              "isMandatorySafety": true
+            },
+            {
+              "id": "reu-2",
+              "text": "2. List on local free exchange group",
+              "detail": "Offer on Freecycle, TrashNothing, or university student boards."
+            }
+          ]
+        },
+        "discard": {
+          "title": "Discard",
+          "subtitle": "Last resort landfill disposal",
+          "tagNote": "Landfill restricted",
+          "defaultReason": "E-waste shouldn't go in the household bin.",
+          "reasons": [
+            "Electronics contain heavy metals and flame retardants that contaminate groundwater in municipal tips.",
+            "Most municipalities prohibit electronic appliances in general curbside rubbish."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Curbside bin collection.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Disposal",
+              "note": "Placing in rubbish bin.",
+              "barPercent": 10
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 min",
+              "note": "Immediate.",
+              "barPercent": 5
+            },
+            "safety": {
+              "level": "High",
+              "value": "Hazardous to soil",
+              "note": "Components leach chemicals into local soil.",
+              "barPercent": 85
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Negative eco impact",
+              "note": "Irreversible loss of metals and persistent waste.",
+              "barPercent": 5
+            }
+          },
+          "optimalCriteria": "Only when hazardous materials are contaminated and no recycler accepts the component.",
+          "toolsNeeded": [
+            "Heavy duty disposal bag"
+          ],
+          "checklists": [
+            {
+              "id": "disc-1",
+              "text": "1. Verify municipal landfill bans",
+              "detail": "Confirm whether small appliances are banned from general garbage in your area."
+            },
+            {
+              "id": "disc-2",
+              "text": "2. Prefer e-waste recycling instead",
+              "detail": "Nearly all council depots accept dead electronics at zero cost."
+            }
+          ]
+        }
+      }
+    },
+    "furniture": {
+      "name": "Furniture & Wooden Items",
+      "matchedKeywords": [
+        "chair",
+        "office chair",
+        "swivel chair",
+        "desk",
+        "table",
+        "bookshelf",
+        "shelf",
+        "stool",
+        "drawer",
+        "cabinet",
+        "bench",
+        "couch",
+        "sofa"
+      ],
+      "safetyFlag": false,
+      "safetyNotice": {
+        "title": "Ergonomic & Structural Safety",
+        "description": "Ensure weight-bearing joints and fasteners are tightened securely before sitting."
+      },
+      "commonProblems": [
+        "Wobbly or loose joints",
+        "Hydraulic cylinder sinks",
+        "Cracked or split wood",
+        "Scratched or worn surface",
+        "Fabric tear or stain",
+        "Something else"
+      ],
+      "baseScores": {
+        "repair": 76,
+        "reuse": 55,
+        "repurpose": 62,
+        "replace": 45,
+        "recycle": 48,
+        "discard": 15
+      },
+      "templates": {
+        "repair": {
+          "title": "Repair",
+          "subtitle": "Tighten bolts, regue joints, or swap cylinder",
+          "tagNote": "Sturdy fix",
+          "defaultReason": "Most loose joints and sinking cylinders can be secured in 20 minutes.",
+          "reasons": [
+            "Local hardware store bolts or Fevicol wood glue cost under ₹50–₹100 and restore full structural strength.",
+            "Office chair hydraulic gas-lift cylinders can be replaced for ₹450–₹750 from local hardware markets or online.",
+            "Preserves seasoned wood or quality steel frames that outlast cheap modern flat-pack."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low",
+              "value": "₹50 – ₹650",
+              "note": "Fevicol/screws (₹50–₹100) or universal hydraulic gas-lift cylinder (₹450–₹650).",
+              "barPercent": 15
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Moderate",
+              "note": "Simple hand tools like an Allen key or mallet.",
+              "barPercent": 35
+            },
+            "time": {
+              "level": "Quick",
+              "value": "20 – 45 mins",
+              "note": "Straightforward bolt tightening or clamp installation.",
+              "barPercent": 35
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Wear work gloves",
+              "note": "Watch fingers around scissor joints and springs.",
+              "barPercent": 20
+            },
+            "impact": {
+              "level": "Maximum",
+              "value": "Heavy waste diverted",
+              "note": "Keeps 10–25 kg of bulky furniture out of landfills.",
+              "barPercent": 95
+            }
+          },
+          "optimalCriteria": "Frame structure is solid; issue is loose bolts, sinking gas strut, or dry glue joints.",
+          "toolsNeeded": [
+            "Allen key set",
+            "PVA wood glue or cylinder clamp kit",
+            "Screwdriver"
+          ],
+          "communityTip": "For an office chair that sinks, a ₹30–₹50 jubilee hose clamp from a local hardware store tightened around the silver cylinder shaft permanently locks it at your preferred height!",
+          "checklists": [
+            {
+              "id": "fur-rep-1",
+              "text": "1. Flip item onto a rug or towel",
+              "detail": "Protect the floor and get clear visual access to all underside bolts."
+            },
+            {
+              "id": "fur-rep-2",
+              "text": "2. Hand-tighten all connecting bolts",
+              "detail": "Go diagonally across bolts to ensure even alignment across the frame."
+            },
+            {
+              "id": "fur-rep-3",
+              "text": "3. Add locking washers or wood glue to threads",
+              "detail": "Prevents vibration and body weight from loosening screws over time."
+            }
+          ],
+          "subsequentAction": "repurpose",
+          "subsequentLabel": "Still unsteady? Repurpose for garden or storage",
+          "householdFix": {
+            "title": "Jubilee Clamp Cylinder Lock & Toothpick Screw Fix",
+            "bestInexpensiveWay": "Lock a sinking office chair with a ₹30 hardware jubilee clamp, or repair loose wobbly screw holes with wooden toothpicks and Fevicol.",
+            "cost": "₹0 – ₹40 (Household items / local hardware shop)",
+            "materialsNeeded": [
+              "₹30 jubilee hose clamp from local hardware store (lohe ki dukaan)",
+              "Wooden toothpicks or matchsticks",
+              "Fevicol or household glue",
+              "Screwdriver or Allen key"
+            ],
+            "steps": [
+              "For a sinking office chair: Pull the chair up to your favorite height. Slide the plastic telescopic cover up to expose the silver metal cylinder. Wrap a ₹30 jubilee metal hose clamp around the top of the silver shaft and tighten the bolt firmly with a screwdriver. The clamp acts as a physical mechanical stop that permanently locks the chair at your height without sinking!",
+              "For loose screws & stripped screw holes: Remove the loose screw. Dip 2–3 wooden toothpicks or matchsticks into Fevicol, jam them into the stripped hole, and snap them off flush with the surface.",
+              "Drive the screw back in: The wooden toothpicks compress and give the screw threads solid new wood grain to bite into, creating a rock-solid tight fit.",
+              "For water marks or surface scuffs: Mix a drop of mustard/cooking oil with a pinch of fine salt, rub gently with a soft cloth over surface rings, and buff dry."
+            ],
+            "safetyNotice": "Never attempt to puncture or drill into pneumatic gas lift cylinders as they contain pressurized gas."
+          }
+        },
+        "repurpose": {
+          "title": "Repurpose",
+          "subtitle": "Adapt for plant stand, garage shelf, or outdoor patio",
+          "tagNote": "Creative project",
+          "defaultReason": "Good lumber and metal legs are perfect for workshop or garden use.",
+          "reasons": [
+            "Chairs with worn cushions make durable plant stands or porch seating.",
+            "Broken tables provide sturdy butcher-block shelves or workbench tops."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low",
+              "value": "₹0 – ₹250",
+              "note": "Use leftover paint, polish, or scrap fabric.",
+              "barPercent": 10
+            },
+            "effort": {
+              "level": "Medium",
+              "value": "Craft",
+              "note": "Sanding or repainting surface.",
+              "barPercent": 50
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "1 hour",
+              "note": "Quick transformation weekend project.",
+              "barPercent": 50
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Ventilation",
+              "note": "Paint outdoors or in ventilated area.",
+              "barPercent": 20
+            },
+            "impact": {
+              "level": "High",
+              "value": "Extended life",
+              "note": "100% material keeps its utility.",
+              "barPercent": 85
+            }
+          },
+          "optimalCriteria": "Item no longer fits interior decor or ergonomic office needs, but materials are sound.",
+          "checklists": [
+            {
+              "id": "fur-rp-1",
+              "text": "1. Disassemble intact timber or metal legs",
+              "detail": "Save screws and brackets in a jar for future home fixes."
+            },
+            {
+              "id": "fur-rp-2",
+              "text": "2. Reposition as garden stand or balcony caddy",
+              "detail": "Apply outdoor protective oil if keeping outside."
+            }
+          ]
+        },
+        "reuse": {
+          "title": "Reuse",
+          "subtitle": "Pass along or donate to students / newcomers",
+          "tagNote": "Community pass",
+          "defaultReason": "Great option if cosmetically worn but structurally safe.",
+          "reasons": [
+            "Students, renters, and community spaces constantly look for free desks and chairs.",
+            "Pick up is usually handled by the recipient directly from your curb."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Zero cost to give away.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Photo & post",
+              "note": "Snap two photos and post on local free group.",
+              "barPercent": 20
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 day",
+              "note": "Items posted for free often move within 24 hours.",
+              "barPercent": 25
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe lifting",
+              "note": "Lift with legs when loading into vehicle.",
+              "barPercent": 15
+            },
+            "impact": {
+              "level": "High",
+              "value": "Zero new manufacturing",
+              "note": "Directly helps another household save money.",
+              "barPercent": 90
+            }
+          },
+          "optimalCriteria": "Functional and safe to sit or store items on, even if scratched or worn.",
+          "checklists": [
+            {
+              "id": "fur-re-1",
+              "text": "1. Wipe down surfaces with damp cloth",
+              "detail": "A clean surface makes second-hand adoption 5x faster."
+            },
+            {
+              "id": "fur-re-2",
+              "text": "2. Note any cosmetic flaws honestly in listing",
+              "detail": "Mention scratches or fabric wear so the collector has exact expectations."
+            }
+          ]
+        },
+        "replace": {
+          "title": "Replace",
+          "subtitle": "Invest in a durable ergonomic piece",
+          "tagNote": "Practical backup",
+          "defaultReason": "Only if structural repair is impossible or ergonomic fit causes pain.",
+          "reasons": [
+            "If a desk or chair causes daily back strain, proper ergonomics is a valid health choice.",
+            "Shop for second-hand commercial task chairs (like Herman Miller or Steelcase) at 80% off retail."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Medium",
+              "value": "₹2,500 – ₹6,500",
+              "note": "Ergonomic mesh study or office chair (budget new: ₹3,000–₹5,500; refurbished/surplus: ₹1,500–₹2,500).",
+              "barPercent": 45
+            },
+            "effort": {
+              "level": "Medium",
+              "value": "Assembly",
+              "note": "Transport and bolt assembly.",
+              "barPercent": 40
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "2 – 3 days",
+              "note": "Sourcing and delivery.",
+              "barPercent": 50
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Ergonomic benefit",
+              "note": "Improves posture and spinal health.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "Medium",
+              "value": "Choose durable",
+              "note": "Opt for repairable solid woods and replaceable cushions.",
+              "barPercent": 40
+            }
+          },
+          "optimalCriteria": "Item causes physical discomfort or structural metal fatigue is unfixable.",
+          "checklists": [
+            {
+              "id": "fur-rep-1",
+              "text": "1. Look for commercial second-hand office surplus",
+              "detail": "Office surplus dealers or refurbished sellers offer premium ergonomic chairs (worth ₹15,000–₹25,000) for ₹2,500–₹4,500."
+            },
+            {
+              "id": "fur-rep-2",
+              "text": "2. Arrange responsible donation of existing chair",
+              "detail": "Coordinate hand-off before new furniture arrives."
+            }
+          ]
+        },
+        "recycle": {
+          "title": "Recycle",
+          "subtitle": "Separate metals, plastics, and untreated timber",
+          "tagNote": "Material sorting",
+          "defaultReason": "Metal bases and unvarnished timber are accepted at council depots.",
+          "reasons": [
+            "Office chair steel wheelbases and gas struts are heavy grade scrap metal.",
+            "Untreated wood can be chipped into organic landscaping mulch."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Free municipal bulk scrap depot.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Medium",
+              "value": "Disassembly",
+              "note": "Separate metal from foam cushions.",
+              "barPercent": 55
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "45 mins",
+              "note": "Unbolting parts and depot transit.",
+              "barPercent": 45
+            },
+            "safety": {
+              "level": "Moderate",
+              "value": "Watch sharp brackets",
+              "note": "Wear sturdy work gloves.",
+              "barPercent": 35
+            },
+            "impact": {
+              "level": "High",
+              "value": "Metal recovery",
+              "note": "100% of steel is endlessly recyclable.",
+              "barPercent": 80
+            }
+          },
+          "optimalCriteria": "Fiberboard has swollen or collapsed from water damage and cannot support weight.",
+          "checklists": [
+            {
+              "id": "fur-rc-1",
+              "text": "1. Unscrew metal frame from cushions",
+              "detail": "Municipal recycling centers require metal to be segregated from foam."
+            },
+            {
+              "id": "fur-rc-2",
+              "text": "2. Drop metal parts in scrap steel bin",
+              "detail": "Check your local transfer station location and opening hours."
+            }
+          ]
+        },
+        "discard": {
+          "title": "Discard",
+          "subtitle": "Council bulky waste collection",
+          "tagNote": "Council bulk pickup",
+          "defaultReason": "Use municipal bulky waste collection rather than unauthorized dumping.",
+          "reasons": [
+            "Book an authorized council clean-up day so large furniture is gathered safely.",
+            "Never leave bulky furniture blocking public footpaths."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Included in standard municipal rates.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Medium",
+              "value": "Moving to curb",
+              "note": "Two-person lift to the curb on booked date.",
+              "barPercent": 50
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "Awaiting date",
+              "note": "Schedule with council.",
+              "barPercent": 40
+            },
+            "safety": {
+              "level": "Moderate",
+              "value": "Back safety",
+              "note": "Team lift for heavy tables and desks.",
+              "barPercent": 40
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Landfill bulk",
+              "note": "Bulky goods take up substantial volume in landfill cells.",
+              "barPercent": 10
+            }
+          },
+          "optimalCriteria": "Pervasive mold, biohazard, or total structural shatter.",
+          "checklists": [
+            {
+              "id": "fur-dc-1",
+              "text": "1. Book official bulky collection date",
+              "detail": "Check city council website for free annual cleanup booking."
+            },
+            {
+              "id": "fur-dc-2",
+              "text": "2. Place neatly on curb night before pickup",
+              "detail": "Keep pedestrian and wheelchair pathway fully unobstructed."
+            }
+          ]
+        }
+      }
+    },
+    "clothing-textile": {
+      "name": "Clothing & Textiles",
+      "matchedKeywords": [
+        "shirt",
+        "t-shirt",
+        "jacket",
+        "denim jacket",
+        "sweater",
+        "pants",
+        "jeans",
+        "coat",
+        "hoodie",
+        "dress",
+        "curtain",
+        "blanket",
+        "towel"
+      ],
+      "safetyFlag": false,
+      "safetyNotice": {
+        "title": "Safe Crafting",
+        "description": "Mind sharp sewing needles and shears during mending."
+      },
+      "commonProblems": [
+        "Loose button or fastener",
+        "Torn seam or ripped elbow",
+        "Small hole or moth damage",
+        "Faded color or stain",
+        "Wrong fit or shrunk",
+        "Something else"
+      ],
+      "baseScores": {
+        "repair": 82,
+        "reuse": 65,
+        "repurpose": 70,
+        "replace": 35,
+        "recycle": 45,
+        "discard": 10
+      },
+      "templates": {
+        "repair": {
+          "title": "Repair",
+          "subtitle": "Visible mending, sashiko patch, or new button",
+          "tagNote": "Quick needle fix",
+          "defaultReason": "Simple stitches and patch techniques add character in 15 minutes.",
+          "reasons": [
+            "A needle and thread costs ₹15–₹25, and a local tailor (darzi) can restitch seams or add a patch for ₹30–₹60.",
+            "Visible mending (like Japanese Sashiko) turns worn elbows into intentional fashion statements.",
+            "Keeps quality cotton, linen, or denim in high rotation."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low",
+              "value": "₹20 – ₹100",
+              "note": "DIY needle & thread (₹20) or local tailor/darzi stitch (₹40–₹80).",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Relaxing stitch",
+              "note": "Beginner friendly hand sewing.",
+              "barPercent": 20
+            },
+            "time": {
+              "level": "Quick",
+              "value": "15 – 30 mins",
+              "note": "Done while listening to music or a podcast.",
+              "barPercent": 25
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Careful with needle",
+              "note": "Use a thimble if sewing heavy denim.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "Maximum",
+              "value": "High textile savings",
+              "note": "Saves ~2,700 liters of water needed to grow new cotton.",
+              "barPercent": 95
+            }
+          },
+          "optimalCriteria": "Fabric fiber is still strong, with isolated seam tears or missing buttons.",
+          "toolsNeeded": [
+            "Sewing needle",
+            "Matching or accent thread",
+            "Small scrap patch fabric"
+          ],
+          "communityTip": "Iron-on adhesive webbing combined with a small backer patch fixes blown knees and worn jacket elbows with zero sewing machine required!",
+          "checklists": [
+            {
+              "id": "clo-rep-1",
+              "text": "1. Turn garment inside out and pin torn edges",
+              "detail": "Aligning weave fibers before stitching ensures a smooth seam."
+            },
+            {
+              "id": "clo-rep-2",
+              "text": "2. Use a simple backstitch for sturdy seams",
+              "detail": "Backstitch holds up to machine washing much better than running stitch."
+            },
+            {
+              "id": "clo-rep-3",
+              "text": "3. Press flat with a warm iron",
+              "detail": "Steam sets the new thread into the fabric fibers invisibly."
+            }
+          ],
+          "subsequentAction": "repurpose",
+          "subsequentLabel": "Fabric too thin to stitch? Try Repurpose",
+          "householdFix": {
+            "title": "Pencil-Graphite Zipper Fix & Desi Darzi Seam Stitch",
+            "bestInexpensiveWay": "Lubricate stuck zippers instantly with a graphite pencil or soap bar, and secure unraveling seams with clear nail polish or a simple backstitch.",
+            "cost": "₹0 – ₹15 (Under ₹20)",
+            "materialsNeeded": [
+              "Standard HB or 2B graphite pencil or dry bar soap",
+              "Sewing needle and thread (₹15 spool)",
+              "Clear nail polish (to stop unraveling threads)",
+              "Safety pin or paperclip (emergency zipper pull)"
+            ],
+            "steps": [
+              "For stuck or stubborn zippers: Rub the tip of an ordinary graphite pencil or a dry cake of bath soap along both sides of the zipper teeth. Graphite is a natural dry lubricant that allows teeth to glide effortlessly without staining fabric.",
+              "For a broken zipper pull tab: Thread a small safety pin, paperclip, or key ring through the zipper slider loop for an immediate, heavy-duty pull tab.",
+              "For torn seams or split hems: Turn garment inside out, align edges, and use a tight needle backstitch (each stitch overlaps the previous one) 3mm inside the raw edge for machine-grade durability.",
+              "Stop frayed edges: Dab a tiny drop of clear nail polish or fabric adhesive along frayed fabric raw edges to seal fibers instantly."
+            ],
+            "safetyNotice": "Use a coin or thimble when pushing needles through thick denim seams to avoid finger pricks."
+          }
+        },
+        "reuse": {
+          "title": "Reuse",
+          "subtitle": "Clothing swap or charity donation",
+          "tagNote": "Pass along",
+          "defaultReason": "If clean and wearable, donate or swap with a friend.",
+          "reasons": [
+            "Community clothing swaps are a zero-waste way to refresh your wardrobe for free.",
+            "Charity shops welcome washed, intact everyday garments."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Free community exchange.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Wash and fold",
+              "note": "Clean presentation.",
+              "barPercent": 20
+            },
+            "time": {
+              "level": "Quick",
+              "value": "15 mins",
+              "note": "Bagging and drop-off.",
+              "barPercent": 20
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Clean textiles",
+              "note": "Freshly laundered.",
+              "barPercent": 5
+            },
+            "impact": {
+              "level": "High",
+              "value": "Replaces new buy",
+              "note": "Keeps garments circulating between households.",
+              "barPercent": 90
+            }
+          },
+          "optimalCriteria": "Garment no longer fits or matches your style, but is clean and in great condition.",
+          "checklists": [
+            {
+              "id": "clo-reu-1",
+              "text": "1. Launder thoroughly according to care label",
+              "detail": "Freshly cleaned clothes are immediately shelf-ready for charities."
+            },
+            {
+              "id": "clo-reu-2",
+              "text": "2. Drop into a verified community collection bin",
+              "detail": "Support local shelters or nonprofit charity stores."
+            }
+          ]
+        },
+        "repurpose": {
+          "title": "Repurpose",
+          "subtitle": "Convert into tote bag, cleaning rags, or pillow",
+          "tagNote": "Creative craft",
+          "defaultReason": "Denim and heavy cotton make great tote bags or shop rags.",
+          "reasons": [
+            "100% cotton shirts make lint-free cleaning rags superior to paper towels.",
+            "Old jeans can easily be trimmed and sewn into a durable shopping bag."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Uses worn material on hand.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Scissors cut",
+              "note": "5 minutes with fabric shears.",
+              "barPercent": 15
+            },
+            "time": {
+              "level": "Quick",
+              "value": "10 – 30 mins",
+              "note": "Immediate utility.",
+              "barPercent": 20
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Fabric scissors",
+              "note": "Watch fingers when cutting heavy seams.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "High",
+              "value": "Eliminates disposables",
+              "note": "Replaces rolls of paper towels and single-use bags.",
+              "barPercent": 85
+            }
+          },
+          "optimalCriteria": "Fabric is too worn or stained for public wear, but weave remains absorbent or tough.",
+          "checklists": [
+            {
+              "id": "clo-rp-1",
+              "text": "1. Cut off buttons and thick seams for craft jars",
+              "detail": "Keep spare buttons in a small dish for future clothing fixes."
+            },
+            {
+              "id": "clo-rp-2",
+              "text": "2. Cut main panels into 30cm squares",
+              "detail": "Store in laundry or workshop for reusable cleaning wipes."
+            }
+          ]
+        },
+        "replace": {
+          "title": "Replace",
+          "subtitle": "Invest in a timeless, natural-fiber staple",
+          "tagNote": "Practical backup",
+          "defaultReason": "Only if clothing is genuinely worn beyond repair and fills a daily need.",
+          "reasons": [
+            "Prioritize durable natural fibers (100% cotton, wool, linen) that can be mended for a decade.",
+            "Thrift stores and second-hand apps offer premium quality at 20% of retail price."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Medium",
+              "value": "₹500 – ₹1,800",
+              "note": "Durable cotton or denim staple from value retail or local apparel market.",
+              "barPercent": 30
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Shopping",
+              "note": "Checking sizing and fiber content.",
+              "barPercent": 20
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "1 – 3 days",
+              "note": "Sourcing a durable replacement.",
+              "barPercent": 35
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Hypoallergenic",
+              "note": "Look for OEKO-TEX certified fabrics.",
+              "barPercent": 5
+            },
+            "impact": {
+              "level": "Low",
+              "value": "New production",
+              "note": "Choose second-hand first to offset water and carbon footprint.",
+              "barPercent": 30
+            }
+          },
+          "optimalCriteria": "Core essential garment is completely threadbare throughout and worn daily.",
+          "checklists": [
+            {
+              "id": "clo-rep-1",
+              "text": "1. Check value retail, thrifting, or local apparel markets",
+              "detail": "Save 50%+ on durable essentials through thrift platforms, FreeUp, or reliable local retail."
+            },
+            {
+              "id": "clo-rep-2",
+              "text": "2. Examine seams and fiber tags before purchase",
+              "detail": "Avoid fast-fashion polyester blends that pill within 3 washes."
+            }
+          ]
+        },
+        "recycle": {
+          "title": "Recycle",
+          "subtitle": "Textile drop-off bin for insulation and felt",
+          "tagNote": "Fiber shredding",
+          "defaultReason": "Unwearable textiles can be shredded into acoustic or car seat insulation.",
+          "reasons": [
+            "Keeps synthetic and blended yarns from decomposing into microplastics in landfill.",
+            "Textile recycling programs grind scraps into industrial wiping rags and padding."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Free bin drop-off.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Bin drop",
+              "note": "Drop off at clothing collection bank.",
+              "barPercent": 25
+            },
+            "time": {
+              "level": "Quick",
+              "value": "15 mins",
+              "note": "Transit to store or depot bin.",
+              "barPercent": 25
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Clean & dry",
+              "note": "Textiles must be dry to prevent mildew.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "Medium",
+              "value": "Downcycling",
+              "note": "Reclaimed as insulation rather than virgin plastic fluff.",
+              "barPercent": 65
+            }
+          },
+          "optimalCriteria": "Fabric is torn, stained, or frayed beyond all wearable or aesthetic reuse.",
+          "checklists": [
+            {
+              "id": "clo-rc-1",
+              "text": "1. Ensure garments are clean and 100% bone dry",
+              "detail": "Damp clothes cause mold and can ruin an entire municipal collection bin."
+            },
+            {
+              "id": "clo-rc-2",
+              "text": "2. Bag and place in dedicated textile recycling bin",
+              "detail": "Many retail clothing brands offer in-store garment takeback boxes."
+            }
+          ]
+        },
+        "discard": {
+          "title": "Discard",
+          "subtitle": "General rubbish as absolute last resort",
+          "tagNote": "Avoid if possible",
+          "defaultReason": "Textiles take up to 200 years to decompose; use textile recycling if possible.",
+          "reasons": [
+            "Synthetics like polyester and nylon are plastic and do not biodegrade.",
+            "Natural fibers release methane when buried in anaerobic landfill conditions."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Standard bin.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Bin disposal",
+              "note": "Immediate.",
+              "barPercent": 5
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 min",
+              "note": "Instant.",
+              "barPercent": 5
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe",
+              "note": "No direct hazard in bin.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Negative",
+              "note": "Permanent landfill loss.",
+              "barPercent": 5
+            }
+          },
+          "optimalCriteria": "Chemically contaminated, soaked in toxic paint/oil, or biological hazard.",
+          "checklists": [
+            {
+              "id": "clo-dc-1",
+              "text": "1. Double check if non-contaminated areas can be rags",
+              "detail": "Even 2 clean squares cut out saves purchasing kitchen sponges."
+            },
+            {
+              "id": "clo-dc-2",
+              "text": "2. Wrap securely in general household waste bag",
+              "detail": "Place in municipal general rubbish bin."
+            }
+          ]
+        }
+      }
+    },
+    "footwear-bags": {
+      "name": "Footwear, Bags & Accessories",
+      "matchedKeywords": [
+        "shoes",
+        "shoe",
+        "sneakers",
+        "boots",
+        "bag",
+        "backpack",
+        "tote",
+        "duffel",
+        "wallet",
+        "belt",
+        "suitcase",
+        "luggage"
+      ],
+      "safetyFlag": false,
+      "safetyNotice": {
+        "title": "Adhesive Ventilation",
+        "description": "If re-gluing soles with contact cement, work in a well-ventilated space."
+      },
+      "commonProblems": [
+        "Sole peeling or separating",
+        "Zipper split or stuck slider",
+        "Torn strap or broken buckle",
+        "Worn heel or hole in sole",
+        "Frayed fabric or stitching",
+        "Something else"
+      ],
+      "baseScores": {
+        "repair": 80,
+        "reuse": 50,
+        "repurpose": 55,
+        "replace": 45,
+        "recycle": 40,
+        "discard": 12
+      },
+      "templates": {
+        "repair": {
+          "title": "Repair",
+          "subtitle": "Cobbler (mochi) stitch, Fevicol ShoeFix, or zipper pull fix",
+          "tagNote": "Quick adhesive fix",
+          "defaultReason": "Peeling soles and separated zippers are 10-minute fixes with simple tools.",
+          "reasons": [
+            "A ₹35–₹50 tube of Fevicol ShoeFix or a ₹40–₹80 visit to a local cobbler (mochi) firmly restitches and re-glues soles.",
+            "90% of split zippers just need the slider jaws squeezed slightly with pliers or a ₹30–₹50 runner replacement.",
+            "Saves ₹1,200–₹3,500 compared to buying new branded footwear or travel backpacks."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low",
+              "value": "₹30 – ₹150",
+              "note": "Local cobbler (mochi) stitch/paste (₹40–₹80) or bag zipper runner replacement (₹30–₹60).",
+              "barPercent": 8
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Simple glue/clamp",
+              "note": "Clear instructions, no cobbler tools required.",
+              "barPercent": 25
+            },
+            "time": {
+              "level": "Quick",
+              "value": "15 mins active",
+              "note": "15 mins application, cures overnight.",
+              "barPercent": 30
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Well ventilated",
+              "note": "Apply adhesive near open window.",
+              "barPercent": 20
+            },
+            "impact": {
+              "level": "Maximum",
+              "value": "High embodied carbon",
+              "note": "Shoes contain 40+ complex bonded materials; extending life has massive impact.",
+              "barPercent": 95
+            }
+          },
+          "optimalCriteria": "Upper material is intact and clean; sole rubber or zipper slider is the only failure point.",
+          "toolsNeeded": [
+            "Fevicol ShoeFix or flexible contact adhesive",
+            "Pliers",
+            "Cotton cloth or sandpaper to clean surface"
+          ],
+          "communityTip": "Before gluing a peeling sole, clean both surfaces with rubbing alcohol and roughen with sandpaper. Clamp with rubber bands overnight for a permanent bond!",
+          "checklists": [
+            {
+              "id": "sh-rep-1",
+              "text": "1. Clean and dry the bonding surfaces",
+              "detail": "Wipe dirt and grease away with rubbing alcohol or soapy water and dry completely."
+            },
+            {
+              "id": "sh-rep-2",
+              "text": "2. Apply flexible polyurethane shoe glue",
+              "detail": "Spread evenly on both surfaces, wait 2 minutes for tackiness, then press firmly."
+            },
+            {
+              "id": "sh-rep-3",
+              "text": "3. Secure under pressure for 24 hours",
+              "detail": "Wrap tight with rubber bands or weigh down with a heavy book."
+            }
+          ],
+          "householdFix": {
+            "title": "Pliers Zipper Clamp & Fevikwik + Baking Soda Sole Fix",
+            "bestInexpensiveWay": "Gently squeeze loose zipper slider jaws with pliers in 10 seconds to fix separated teeth, or bond peeling soles with Fevicol ShoeFix / Fevikwik.",
+            "cost": "₹10 – ₹45 (Under ₹50)",
+            "materialsNeeded": [
+              "Household pliers",
+              "Fevicol ShoeFix (₹35) or Fevikwik (₹10)",
+              "Pinch of baking soda (for instant plastic weld)",
+              "Heavy rubber bands or heavy books (for clamping)",
+              "Old toothbrush & sandpaper (to clean bonding surface)"
+            ],
+            "steps": [
+              "For separated zippers (teeth open behind slider): When bag or shoe zippers pull apart, the metal slider jaws have spread open. Take ordinary pliers and gently squeeze the sides of the slider top-and-bottom by 1mm. This re-aligns the teeth and fixes 90% of split zippers in 10 seconds!",
+              "For peeling shoe/sandal soles: Roughen both the rubber sole and shoe base with sandpaper. Clean off grit with a dry cloth.",
+              "Apply shoe adhesive: Spread a thin, even coat of Fevicol ShoeFix on both surfaces. Wait 2 minutes for slight tackiness, then press firmly together.",
+              "Instant acrylic plastic weld: For cracked plastic buckles, heel tabs, or eyelets, put a drop of Fevikwik and immediately sprinkle a pinch of baking soda over it. It creates an instant stone-hard acrylic polymer bridge!",
+              "Clamp overnight: Wrap tightly with rubber bands or place under heavy books for 12 hours."
+            ],
+            "safetyNotice": "Avoid skin contact with Fevikwik; keep away from eyes."
+          }
+        },
+        "reuse": {
+          "title": "Reuse",
+          "subtitle": "Donate wearable shoes or bags",
+          "tagNote": "Community pass",
+          "defaultReason": "Worn or outgrown shoes in decent condition can serve someone well.",
+          "reasons": [
+            "Shoe collection charities inspect and distribute footwear to communities in need.",
+            "Outdoor and sports gear swaps love durable daypacks and hiking boots."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Zero cost donation.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Tie laces & bag",
+              "note": "Pair shoes with laces.",
+              "barPercent": 15
+            },
+            "time": {
+              "level": "Quick",
+              "value": "15 mins",
+              "note": "Drop off at donation bin.",
+              "barPercent": 20
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe",
+              "note": "Clean presentation.",
+              "barPercent": 5
+            },
+            "impact": {
+              "level": "High",
+              "value": "Immediate utility",
+              "note": "Direct support for someone who needs footwear.",
+              "barPercent": 90
+            }
+          },
+          "optimalCriteria": "Shoes still have safe tread and support, but are outgrown or unwanted.",
+          "checklists": [
+            {
+              "id": "sh-reu-1",
+              "text": "1. Tie matching shoes together by laces",
+              "detail": "Keeps pairs together through sorting logistics."
+            },
+            {
+              "id": "sh-reu-2",
+              "text": "2. Place in designated charity shoe bin",
+              "detail": "Look for community sporting clubs or municipal charity bins."
+            }
+          ]
+        },
+        "repurpose": {
+          "title": "Repurpose",
+          "subtitle": "Garden shoes, garage tool pouch, or cord organizer",
+          "tagNote": "Utility project",
+          "defaultReason": "Worn sneakers make rugged outdoor garden and DIY project shoes.",
+          "reasons": [
+            "Keep one pair of scruffy shoes dedicated to wet grass, painting, and yard chores.",
+            "Backpack pockets and straps can be cut out as heavy-duty tool roll organizers."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Zero cost.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Reposition",
+              "note": "Designate for muddy or painting tasks.",
+              "barPercent": 10
+            },
+            "time": {
+              "level": "Quick",
+              "value": "5 mins",
+              "note": "Immediate.",
+              "barPercent": 10
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Dry feet",
+              "note": "Check soles are waterproof for gardening.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "High",
+              "value": "Saves nice shoes",
+              "note": "Protects your everyday shoes from premature destruction.",
+              "barPercent": 80
+            }
+          },
+          "optimalCriteria": "Shoes are stained or worn out cosmetically, but still shield feet comfortably.",
+          "checklists": [
+            {
+              "id": "sh-rp-1",
+              "text": "1. Re-lace and place beside backdoor / mudroom",
+              "detail": "Designate as your messy chore and yard work footwear."
+            }
+          ]
+        },
+        "replace": {
+          "title": "Replace",
+          "subtitle": "Choose durable, resoleable footwear",
+          "tagNote": "Practical backup",
+          "defaultReason": "Only when inner cushioning is packed down or tread is slick and dangerous.",
+          "reasons": [
+            "Worn out midsole foam loses shock absorption and can cause knee or foot pain.",
+            "Consider Goodyear-welted boots or shoes designed with replaceable Vibram outsoles."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Medium",
+              "value": "₹900 – ₹2,800",
+              "note": "Reliable everyday walking shoes or durable backpack (Campus, Sparx, Wildcraft, etc.).",
+              "barPercent": 35
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Selection",
+              "note": "Fit testing.",
+              "barPercent": 25
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "1 – 2 days",
+              "note": "Store visit or delivery.",
+              "barPercent": 35
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Joint protection",
+              "note": "Restores joint cushioning and traction.",
+              "barPercent": 5
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Resource footprint",
+              "note": "Opt for recycled rubber and repairable construction.",
+              "barPercent": 30
+            }
+          },
+          "optimalCriteria": "Inner foam is collapsed or sole rubber is worn completely through to the footbed.",
+          "checklists": [
+            {
+              "id": "sh-rep-1",
+              "text": "1. Pick models known for durable materials",
+              "detail": "Prioritize stitched soles rather than flimsy glue-only builds."
+            }
+          ]
+        },
+        "recycle": {
+          "title": "Recycle",
+          "subtitle": "Athletic shoe recycling (Nike Grind, community programs)",
+          "tagNote": "Grind program",
+          "defaultReason": "Sneaker take-back programs grind rubbers into athletic track surfaces.",
+          "reasons": [
+            "Many shoe retailers host collection bins that grind athletic shoes into playground mats.",
+            "Keeps petroleum-based foams and vulcanized rubbers out of the dump."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Free brand store collection.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Store drop",
+              "note": "Drop off at participating sports retailer.",
+              "barPercent": 25
+            },
+            "time": {
+              "level": "Quick",
+              "value": "20 mins",
+              "note": "Combine with trip to shopping district.",
+              "barPercent": 25
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe",
+              "note": "Clean soles of excess mud.",
+              "barPercent": 5
+            },
+            "impact": {
+              "level": "Medium",
+              "value": "Playground surfacing",
+              "note": "Rubber pellets replace virgin material in public parks.",
+              "barPercent": 70
+            }
+          },
+          "optimalCriteria": "Running shoes with dead shock foam and bald outsoles that cannot be worn safely.",
+          "checklists": [
+            {
+              "id": "sh-rc-1",
+              "text": "1. Knock loose dirt off outsoles",
+              "detail": "Clean footwear feeds smoothly into high-speed industrial grinders."
+            },
+            {
+              "id": "sh-rc-2",
+              "text": "2. Drop in sports store shoe recycling box",
+              "detail": "Check Nike, Asics, or local athletic retailer locations."
+            }
+          ]
+        },
+        "discard": {
+          "title": "Discard",
+          "subtitle": "General household refuse",
+          "tagNote": "Final option",
+          "defaultReason": "Household rubbish if shoe take-back isn't available locally.",
+          "reasons": [
+            "If no athletic brand recycling drop-box exists nearby, curbside waste is the fallback.",
+            "Avoid burning rubber footwear at home, as fumes contain hazardous particulates."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Standard bin.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Bin disposal",
+              "note": "Instant.",
+              "barPercent": 5
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 min",
+              "note": "Instant.",
+              "barPercent": 5
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe",
+              "note": "Do not burn.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Permanent landfill",
+              "note": "Decomposition takes centuries.",
+              "barPercent": 5
+            }
+          },
+          "optimalCriteria": "Completely disintegrating foam, toxic spill, or severe mold infestation.",
+          "checklists": [
+            {
+              "id": "sh-dc-1",
+              "text": "1. Remove reusable shoelaces before discarding",
+              "detail": "Sturdy laces make handy emergency cordage in camping kits or garages."
+            }
+          ]
+        }
+      }
+    },
+    "containers-household": {
+      "name": "Household Containers & Kitchenware",
+      "matchedKeywords": [
+        "container",
+        "food container",
+        "tupperware",
+        "jar",
+        "glass jar",
+        "mug",
+        "coffee mug",
+        "plate",
+        "bowl",
+        "cup",
+        "bottle",
+        "water bottle",
+        "thermos",
+        "pan",
+        "pot"
+      ],
+      "safetyFlag": false,
+      "safetyNotice": {
+        "title": "Food Contact & Glass Safety",
+        "description": "Never use cracked glass or toxic industrial glues for surfaces that touch food or drink."
+      },
+      "commonProblems": [
+        "Lid broken or doesn't seal",
+        "Cracked or chipped rim",
+        "Loose handle",
+        "Stained or retaining odor",
+        "Warped plastic",
+        "Something else"
+      ],
+      "baseScores": {
+        "repurpose": 85,
+        "reuse": 65,
+        "repair": 50,
+        "replace": 45,
+        "recycle": 60,
+        "discard": 15
+      },
+      "templates": {
+        "repurpose": {
+          "title": "Repurpose",
+          "subtitle": "Convert to hardware organizer or plant propagation pot",
+          "tagNote": "Instant utility",
+          "defaultReason": "Perfect for sorting screws, nails, craft buttons, or propagating plant cuttings.",
+          "reasons": [
+            "A chipped mug or lidless container makes the ultimate garage or desk organizer.",
+            "Glass jars with chipped rims safely propagate pothos and herbs in window light.",
+            "Saves buying plastic drawer organizers from home goods stores."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Immediate zero-cost repurpose.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Clean & place",
+              "note": "Wipe clean and put on shelf.",
+              "barPercent": 10
+            },
+            "time": {
+              "level": "Quick",
+              "value": "5 mins",
+              "note": "Instantaneous.",
+              "barPercent": 10
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Non-food only",
+              "note": "Keep out of food pantry.",
+              "barPercent": 15
+            },
+            "impact": {
+              "level": "Maximum",
+              "value": "100% item saved",
+              "note": "Replaces virgin plastic organizer trays.",
+              "barPercent": 95
+            }
+          },
+          "optimalCriteria": "Chipped rim or lost lid means it shouldn't hold hot food, but holds solid items effortlessly.",
+          "checklists": [
+            {
+              "id": "con-rp-1",
+              "text": "1. Wash thoroughly and smooth any sharp chip with sandpaper",
+              "detail": "A few rubs with wet sandpaper smooths ceramic chip sharp edges."
+            },
+            {
+              "id": "con-rp-2",
+              "text": "2. Label for workshop, craft beads, or bathroom q-tips",
+              "detail": "Sort small odds and ends that otherwise clutter drawers."
+            }
+          ]
+        },
+        "reuse": {
+          "title": "Reuse",
+          "subtitle": "Use for dry pantry storage or pet food scoop",
+          "tagNote": "Pantry utility",
+          "defaultReason": "Still great for dry goods, bird seed, or pet kibble.",
+          "reasons": [
+            "Containers without airtight seals can still scoop dry pet food or store wrapped packets.",
+            "Glass jars with good lids store bulk pantry beans, rice, and oats endlessly."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Zero cost.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Wash",
+              "note": "Hot soapy wash.",
+              "barPercent": 10
+            },
+            "time": {
+              "level": "Quick",
+              "value": "5 mins",
+              "note": "Instant.",
+              "barPercent": 10
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Food safe",
+              "note": "Ensure plastic isn't flaking.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "High",
+              "value": "Zero waste",
+              "note": "Eliminates need for new storage containers.",
+              "barPercent": 90
+            }
+          },
+          "optimalCriteria": "Intact and clean, just no longer used for lunchboxes.",
+          "checklists": [
+            {
+              "id": "con-re-1",
+              "text": "1. Soak in baking soda and warm water to strip old odors",
+              "detail": "Baking soda neutralizes curry or tomato sauces absorbed into plastic."
+            }
+          ]
+        },
+        "repair": {
+          "title": "Repair",
+          "subtitle": "Handle screw tightening or replacement handle",
+          "tagNote": "Artistic or loose fix",
+          "defaultReason": "Loose pan handles just need a screwdriver; ceramic can be mended with Kintsugi.",
+          "reasons": [
+            "Loose pot and pan handles take 30 seconds to tighten with a screwdriver.",
+            "Replacement cooker or pan handles cost ₹30–₹70 at local utensil (bartan) shops."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low",
+              "value": "₹0 – ₹120",
+              "note": "Handle screw tightening is free; replacement cooker/pan handle from local utensil shop is ₹30–₹70.",
+              "barPercent": 8
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Easy",
+              "note": "Simple tightening or delicate gluing.",
+              "barPercent": 25
+            },
+            "time": {
+              "level": "Quick",
+              "value": "10 – 25 mins",
+              "note": "Quick resolution.",
+              "barPercent": 20
+            },
+            "safety": {
+              "level": "Moderate",
+              "value": "Food contact caution",
+              "note": "Only use certified food-safe glues for eating surfaces.",
+              "barPercent": 30
+            },
+            "impact": {
+              "level": "High",
+              "value": "Heritage preserved",
+              "note": "Keeps sentimental family tableware alive.",
+              "barPercent": 85
+            }
+          },
+          "optimalCriteria": "Loose screw on cookware handle or meaningful ceramic with clean break lines.",
+          "checklists": [
+            {
+              "id": "con-rep-1",
+              "text": "1. Tighten center handle screw securely",
+              "detail": "Add a drop of threadlocker to prevent cookware handles loosening again."
+            }
+          ],
+          "householdFix": {
+            "title": "Baking Soda Odor Strip & Cookware Threadlocker Fix",
+            "bestInexpensiveWay": "Lock loose pan handles with nail polish on screw threads, and strip turmeric curry stains from plastic using baking soda and sunlight.",
+            "cost": "₹0 – Free (Pantry supplies)",
+            "materialsNeeded": [
+              "Baking soda (meetha soda) & warm water",
+              "Clear nail polish (budget threadlocker)",
+              "Phillips screwdriver",
+              "400-grit wet sandpaper (for smoothing ceramic chips)"
+            ],
+            "steps": [
+              "For loose cookware handles: Unscrew the handle screw completely. Coat the screw threads with a drop of clear nail polish (acts as a vibration-proof threadlocker), re-insert into the handle, and tighten firmly with a screwdriver. It prevents the screw from loosening from heat cycles.",
+              "For stained or smelly plastic containers: Make a thick paste of 2 tablespoons baking soda and warm water. Coat the inside, place the open container in direct sunlight for 3–4 hours, then rinse. Sunlight and baking soda break down tough turmeric and oil stains.",
+              "For leaking flask or bottle lids: Remove the silicone rubber gasket ring, wash thoroughly, turn it upside down, and re-fit it into the lid groove. The reverse side creates an airtight new seal.",
+              "For chipped ceramic mug bottoms (non-food surface): Smooth the rough chip with wet sandpaper to prevent scratching tables or hurting hands."
+            ],
+            "safetyNotice": "Never use chemical industrial glues on surfaces that come into direct contact with boiling food or hot liquids."
+          }
+        },
+        "recycle": {
+          "title": "Recycle",
+          "subtitle": "Clean glass, aluminum pans, or rigid plastic bin",
+          "tagNote": "Curbside friendly",
+          "defaultReason": "Glass jars, metal pans, and PET containers belong in yellow recycling bins.",
+          "reasons": [
+            "Glass and aluminum pans can be melted down endlessly with 95% energy savings.",
+            "Rigid plastics (#1, #2, #5) are widely processed into garden edging and storage tubs."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Standard curbside.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Rinse",
+              "note": "Quick rinse with gray dishwater.",
+              "barPercent": 15
+            },
+            "time": {
+              "level": "Quick",
+              "value": "2 mins",
+              "note": "Instant.",
+              "barPercent": 5
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Watch broken glass",
+              "note": "Wrap broken shards in paper before disposal.",
+              "barPercent": 15
+            },
+            "impact": {
+              "level": "High",
+              "value": "Material loop",
+              "note": "High commodity recycling value.",
+              "barPercent": 80
+            }
+          },
+          "optimalCriteria": "Unsalvageable warped plastic or common food glass with no remaining utility.",
+          "checklists": [
+            {
+              "id": "con-rc-1",
+              "text": "1. Rinse food residue clean",
+              "detail": "Food contamination can cause entire recycling bales to be rejected."
+            },
+            {
+              "id": "con-rc-2",
+              "text": "2. Check resin number on plastic bottom (#1, #2, #5)",
+              "detail": "Verify accepted numbers with your local municipality guide."
+            }
+          ]
+        },
+        "replace": {
+          "title": "Replace",
+          "subtitle": "Choose stainless steel or glass containers with clamp seals",
+          "tagNote": "Practical backup",
+          "defaultReason": "Only if container is cracked, leaking hot liquid, or plastic is peeling.",
+          "reasons": [
+            "Glass or 18/8 stainless steel food containers don't stain, melt, or leach microplastics.",
+            "Look for modular designs with replaceable silicone gaskets."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Medium",
+              "value": "₹250 – ₹800",
+              "note": "Durable food-grade stainless steel container or borosilicate glass set.",
+              "barPercent": 25
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Purchase",
+              "note": "Readily available.",
+              "barPercent": 15
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 day",
+              "note": "Convenient.",
+              "barPercent": 20
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Food safe",
+              "note": "Zero microplastics.",
+              "barPercent": 5
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Manufacturing",
+              "note": "Lasts a lifetime when treated well.",
+              "barPercent": 25
+            }
+          },
+          "optimalCriteria": "Cracked, brittle plastic shedding particles into food.",
+          "checklists": [
+            {
+              "id": "con-rep-1",
+              "text": "1. Look for oven-safe borosilicate glass containers",
+              "detail": "Allows baking, storing, and freezing in a single durable vessel."
+            }
+          ]
+        },
+        "discard": {
+          "title": "Discard",
+          "subtitle": "General trash if non-recyclable composite or ceramic",
+          "tagNote": "Non-recyclable",
+          "defaultReason": "Ceramic mugs and Pyrex heat-treated glass cannot go in regular recycling.",
+          "reasons": [
+            "Heat-resistant glass and ceramic have different melting temperatures that ruin glass recycling batches.",
+            "Dispose in general waste if broken into dangerous fine shards."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Standard trash.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Safe wrap",
+              "note": "Wrap sharp shards.",
+              "barPercent": 15
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 min",
+              "note": "Instant.",
+              "barPercent": 5
+            },
+            "safety": {
+              "level": "Moderate",
+              "value": "Wrap sharp glass",
+              "note": "Prevent injury to municipal sanitation workers.",
+              "barPercent": 40
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Inert landfill",
+              "note": "Ceramic is chemically inert in landfill.",
+              "barPercent": 5
+            }
+          },
+          "optimalCriteria": "Shattered ceramic or Pyrex that cannot be safely handled.",
+          "checklists": [
+            {
+              "id": "con-dc-1",
+              "text": "1. Wrap broken ceramic pieces in newspaper or cardboard",
+              "detail": "Protect sanitation crew from sharp puncture wounds.",
+              "isMandatorySafety": true
+            }
+          ]
+        }
+      }
+    },
+    "generic": {
+      "name": "General Household Item",
+      "matchedKeywords": [],
+      "safetyFlag": false,
+      "safetyNotice": {
+        "title": "Standard Safety Check",
+        "description": "Inspect for sharp edges, battery compartments, or loose parts before working."
+      },
+      "commonProblems": [
+        "Doesn't work properly",
+        "Snapped or cracked component",
+        "Loose fasteners or joints",
+        "Cosmetically worn or faded",
+        "Missing a small piece",
+        "Something else"
+      ],
+      "baseScores": {
+        "repair": 72,
+        "reuse": 50,
+        "repurpose": 58,
+        "replace": 48,
+        "recycle": 46,
+        "discard": 15
+      },
+      "templates": {
+        "repair": {
+          "title": "Repair",
+          "subtitle": "Check fasteners, cleaning, and simple mechanical bonds",
+          "tagNote": "Worth checking",
+          "defaultReason": "Most household items fail from loose screws, dust, or worn fasteners.",
+          "reasons": [
+            "A fast 10-minute check with basic hand tools often reveals a trivial fix.",
+            "Keeps usable materials out of municipal landfills and saves money.",
+            "Building repair confidence makes future fixes easier."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Low",
+              "value": "₹0 – ₹150",
+              "note": "Fevikwik, Araldite epoxy, insulation tape, or replacement screws (₹10–₹80).",
+              "barPercent": 8
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Beginner",
+              "note": "Basic hand tools and inspection.",
+              "barPercent": 25
+            },
+            "time": {
+              "level": "Quick",
+              "value": "15 – 30 mins",
+              "note": "Low time investment to test feasibility.",
+              "barPercent": 30
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Disconnect power",
+              "note": "If item uses power or batteries, disconnect before checking.",
+              "barPercent": 20
+            },
+            "impact": {
+              "level": "Maximum",
+              "value": "Resource saved",
+              "note": "Extends product useful life directly.",
+              "barPercent": 95
+            }
+          },
+          "optimalCriteria": "The core item body is sound and parts are accessible with standard screws.",
+          "toolsNeeded": [
+            "Screwdriver set",
+            "All-purpose glue or tape",
+            "Cleaning cloth"
+          ],
+          "checklists": [
+            {
+              "id": "gen-rep-1",
+              "text": "1. Disconnect any power cord or remove batteries first",
+              "detail": "Always ensure energy sources are isolated before inspection.",
+              "isMandatorySafety": true
+            },
+            {
+              "id": "gen-rep-2",
+              "text": "2. Inspect closely for loose screws, jams, or disconnected clips",
+              "detail": "Gently wiggle moving parts to spot where mechanical connection broke."
+            },
+            {
+              "id": "gen-rep-3",
+              "text": "3. Clean out accumulated dust, lint, or dried grease",
+              "detail": "Friction from grit is a top cause of stuck mechanisms."
+            }
+          ],
+          "householdFix": {
+            "title": "Fevikwik + Baking Soda Super-Bridge & Battery Contact Clean",
+            "bestInexpensiveWay": "Reinforce snapped plastic brackets with Fevikwik + baking soda composite, and clean corroded battery contacts with a vinegar-dipped earbud.",
+            "cost": "₹0 – ₹20 (Everyday home supplies)",
+            "materialsNeeded": [
+              "Fevikwik (₹10 tube)",
+              "Household baking soda (meetha soda from kitchen)",
+              "Cotton earbud / swab with a drop of vinegar or lemon juice",
+              "Rubber band or aluminum foil strip (for stripped screw grip)"
+            ],
+            "steps": [
+              "For corroded battery contacts: If an item or gadget won't turn on, inspect the battery springs for white/green corrosion. Dip a cotton earbud in vinegar or lemon juice and rub the springs until the shiny metal reappears. Dry completely before inserting fresh batteries.",
+              "Super-strong plastic bond: For cracked or snapped plastic parts, hold the joint together, apply a line of Fevikwik, and immediately dust it with baking soda. The chemical reaction forms an instant, drillable, stone-hard plastic weld that is 5x stronger than glue alone.",
+              "For stripped screw holes in plastic: Lay a small piece of rubber band or folded aluminum foil over the hole and drive the screw in. The rubber/foil fills the void and provides instant friction grip.",
+              "For stuck hinges or squeaky joints: Apply one drop of coconut or machine oil to the pivot pin and flex it back and forth several times."
+            ],
+            "safetyNotice": "Always disconnect batteries or power sources before cleaning internal contacts."
+          }
+        },
+        "repurpose": {
+          "title": "Repurpose",
+          "subtitle": "Convert into storage, workshop caddy, or creative craft",
+          "tagNote": "Creative use",
+          "defaultReason": "Parts of the item can serve as storage, brackets, or craft projects.",
+          "reasons": [
+            "Unlocks utility from materials that would otherwise be discarded.",
+            "Encourages creative reuse and saves buying separate organizer containers."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Uses materials on hand.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Medium",
+              "value": "Creative",
+              "note": "Basic trimming or cleaning.",
+              "barPercent": 40
+            },
+            "time": {
+              "level": "Moderate",
+              "value": "20 – 40 mins",
+              "note": "Fun afternoon task.",
+              "barPercent": 40
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe handling",
+              "note": "Smooth any cut edges.",
+              "barPercent": 15
+            },
+            "impact": {
+              "level": "High",
+              "value": "Direct diversion",
+              "note": "Zero transportation or industrial recycling needed.",
+              "barPercent": 85
+            }
+          },
+          "optimalCriteria": "Item cannot perform its original purpose, but raw parts or container are durable.",
+          "checklists": [
+            {
+              "id": "gen-rp-1",
+              "text": "1. Separate and save functional hardware or screws",
+              "detail": "Small nuts, bolts, and clips are always useful in household toolboxes."
+            },
+            {
+              "id": "gen-rp-2",
+              "text": "2. Assign a simple secondary job (garage storage, planter, paperweight)",
+              "detail": "Give the structure a practical role in your home."
+            }
+          ]
+        },
+        "reuse": {
+          "title": "Reuse",
+          "subtitle": "Pass along to someone who can fix or use it",
+          "tagNote": "Share locally",
+          "defaultReason": "If functional or fixable by a hobbyist, pass it along on Freecycle.",
+          "reasons": [
+            "Local tinkerers and community groups frequently pick up fixer-upper items for free.",
+            "Keeps items in active community circulation."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Free community sharing.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Listing",
+              "note": "Post photo on community board.",
+              "barPercent": 20
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 – 2 days",
+              "note": "Awaiting local pickup.",
+              "barPercent": 30
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Disclose issues",
+              "note": "Clearly state if any repairs are needed.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "High",
+              "value": "Second life",
+              "note": "Prevents another person buying brand new.",
+              "barPercent": 90
+            }
+          },
+          "optimalCriteria": "Item works or has minor defects that a handy neighbor can easily address.",
+          "checklists": [
+            {
+              "id": "gen-re-1",
+              "text": "1. Take a clear photo in natural light",
+              "detail": "Photos with good lighting find new homes in half the time."
+            },
+            {
+              "id": "gen-re-2",
+              "text": "2. State condition clearly in local Buy Nothing group",
+              "detail": "Accurate descriptions build community trust."
+            }
+          ]
+        },
+        "replace": {
+          "title": "Replace",
+          "subtitle": "Practical option if repair is uneconomical",
+          "tagNote": "Practical backup",
+          "defaultReason": "Only if repair or reuse isn't realistic for your situation.",
+          "reasons": [
+            "A completely practical choice when an item is obsolete, unsafe, or parts are impossible to find.",
+            "Choosing high-quality, repairable models for your next purchase breaks the disposable cycle."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Medium",
+              "value": "₹200 – ₹1,500",
+              "note": "Equivalent everyday utility replacement.",
+              "barPercent": 35
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Purchase",
+              "note": "Retail purchase.",
+              "barPercent": 20
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 – 2 days",
+              "note": "Procurement time.",
+              "barPercent": 30
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe",
+              "note": "Modern certified item.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Production footprint",
+              "note": "Manufacturing consumes energy and resources.",
+              "barPercent": 25
+            }
+          },
+          "optimalCriteria": "Repair estimate is disproportionate or item poses safety risks.",
+          "checklists": [
+            {
+              "id": "gen-rep-1",
+              "text": "1. Check if second-hand or refurbished alternatives exist",
+              "detail": "Certified refurbished units often carry warranties with 40% lower cost."
+            },
+            {
+              "id": "gen-rep-2",
+              "text": "2. Verify repairability score of replacement",
+              "detail": "Check if user-serviceable screws and spare parts are sold by the manufacturer."
+            }
+          ]
+        },
+        "recycle": {
+          "title": "Recycle",
+          "subtitle": "Proper material stream or council dropoff",
+          "tagNote": "Stream sorting",
+          "defaultReason": "Separate into municipal metal, glass, paper, or plastic streams.",
+          "reasons": [
+            "Reclaims base materials for industrial manufacturing.",
+            "Prevents durable synthetics and metals from filling local landfill capacity."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Municipal recycling service.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Sorting",
+              "note": "Segregate materials properly.",
+              "barPercent": 25
+            },
+            "time": {
+              "level": "Quick",
+              "value": "15 mins",
+              "note": "Curbside or depot drop.",
+              "barPercent": 20
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe handling",
+              "note": "No hazardous liquid leaks.",
+              "barPercent": 15
+            },
+            "impact": {
+              "level": "Medium",
+              "value": "Material loop",
+              "note": "Recovered commodities reduce virgin mining/refining.",
+              "barPercent": 75
+            }
+          },
+          "optimalCriteria": "Materials match accepted municipal recycling guidelines (metals, clean plastics, glass).",
+          "checklists": [
+            {
+              "id": "gen-rc-1",
+              "text": "1. Check material type against local recycling guidelines",
+              "detail": "Consult city council app or website for accepted items."
+            },
+            {
+              "id": "gen-rc-2",
+              "text": "2. Place in appropriate curbside or transfer station bin",
+              "detail": "Do not bag recyclables in plastic bags unless explicitly requested."
+            }
+          ]
+        },
+        "discard": {
+          "title": "Discard",
+          "subtitle": "Responsible landfill disposal as last resort",
+          "tagNote": "Last resort",
+          "defaultReason": "Place in household rubbish only when recycling or reuse cannot be done.",
+          "reasons": [
+            "When materials are composite, contaminated, or broken into dangerous shards, disposal is realistic.",
+            "Always follow local rules for hazardous materials."
+          ],
+          "considerations": {
+            "cost": {
+              "level": "Free",
+              "value": "₹0",
+              "note": "Standard refuse.",
+              "barPercent": 5
+            },
+            "effort": {
+              "level": "Low",
+              "value": "Bin disposal",
+              "note": "Instant.",
+              "barPercent": 5
+            },
+            "time": {
+              "level": "Quick",
+              "value": "1 min",
+              "note": "Instant.",
+              "barPercent": 5
+            },
+            "safety": {
+              "level": "Low",
+              "value": "Safe bag",
+              "note": "Bag securely.",
+              "barPercent": 10
+            },
+            "impact": {
+              "level": "Low",
+              "value": "Landfill burden",
+              "note": "Zero material recovery.",
+              "barPercent": 5
+            }
+          },
+          "optimalCriteria": "Contaminated, degraded beyond all physical utility, and no recycling depot accepts the material.",
+          "checklists": [
+            {
+              "id": "gen-dc-1",
+              "text": "1. Verify no toxic battery or electronic component is hidden inside",
+              "detail": "Remove button cells or lithium packs to prevent landfill fires.",
+              "isMandatorySafety": true
+            },
+            {
+              "id": "gen-dc-2",
+              "text": "2. Place in standard municipal refuse bag",
+              "detail": "Tie securely and place in curbside general waste bin."
+            }
+          ]
+        }
+      }
+    }
+  },
+  "conditionModifiers": {
+    "broken": {
+      "repair": 15,
+      "recycle": 8,
+      "repurpose": 5,
+      "replace": 2,
+      "reuse": -15,
+      "discard": -5
+    },
+    "worn_out": {
+      "repair": 5,
+      "repurpose": 14,
+      "replace": 12,
+      "reuse": 2,
+      "recycle": 4,
+      "discard": -8
+    },
+    "unused": {
+      "reuse": 28,
+      "repurpose": 12,
+      "repair": -20,
+      "replace": -18,
+      "recycle": 2,
+      "discard": -25
+    }
+  },
+  "problemModifiers": {
+    "doesn't turn on": {
+      "repair": 12,
+      "recycle": 5,
+      "reuse": -20,
+      "replace": 0,
+      "repurpose": 2,
+      "discard": -10
+    },
+    "flickers": {
+      "repair": 15,
+      "recycle": 0,
+      "reuse": -15,
+      "replace": -5,
+      "repurpose": 0,
+      "discard": -15
+    },
+    "cracked": {
+      "repurpose": 12,
+      "repair": 4,
+      "recycle": 6,
+      "reuse": -10,
+      "replace": 8,
+      "discard": -5
+    },
+    "wobbly": {
+      "repair": 16,
+      "repurpose": 6,
+      "reuse": 0,
+      "replace": -8,
+      "recycle": 0,
+      "discard": -12
+    },
+    "loose joints": {
+      "repair": 18,
+      "repurpose": 5,
+      "reuse": 2,
+      "replace": -10,
+      "recycle": 0,
+      "discard": -15
+    },
+    "hydraulic cylinder sinks": {
+      "repair": 14,
+      "recycle": 6,
+      "repurpose": 4,
+      "reuse": -8,
+      "replace": 8,
+      "discard": -10
+    },
+    "peeling sole": {
+      "repair": 16,
+      "repurpose": 8,
+      "reuse": -12,
+      "replace": 2,
+      "recycle": 0,
+      "discard": -10
+    },
+    "zipper split": {
+      "repair": 18,
+      "repurpose": 8,
+      "reuse": -10,
+      "replace": 0,
+      "recycle": 0,
+      "discard": -15
+    },
+    "torn seam": {
+      "repair": 20,
+      "repurpose": 10,
+      "reuse": -5,
+      "replace": -10,
+      "recycle": 2,
+      "discard": -15
+    },
+    "lid broken": {
+      "repurpose": 20,
+      "reuse": 5,
+      "repair": -5,
+      "replace": 6,
+      "recycle": 8,
+      "discard": -5
+    }
+  }
+}

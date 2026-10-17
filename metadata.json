@@ -1,0 +1,8 @@
+{
+  "name": "Fix It First",
+  "description": "Before you replace it, understand your options. A guided decision companion that compares Repair, Reuse, Repurpose, Replace, Recycle, and Discard.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
